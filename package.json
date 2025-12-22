@@ -1,5 +1,24 @@
 {
   "dependencies": {
     "@hirosystems/chainhooks-client": "^1.0.0"
-  }
+  },
+  "name": "stacks-dollop",
+  "version": "1.0.0",
+  "description": "TP Stacks  submission using Chainhooks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadonamite/Stacks-Dollop.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jadonamite/Stacks-Dollop/issues"
+  },
+  "homepage": "https://github.com/jadonamite/Stacks-Dollop#readme"
 }
