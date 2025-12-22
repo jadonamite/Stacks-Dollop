@@ -1,0 +1,31 @@
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Environment/Secrets ---
+.env
+.env.local
+*.log
+auth.json
+
+# --- Node.js ---
+node_modules/
+dist/
+build/
+.npm
+npm-debug.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
