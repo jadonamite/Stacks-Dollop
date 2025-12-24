@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://stacks-node-api.testnet.stacks.co"
+genesis:
+  wallets:
+    - name: deployer
+      address: ST6X0MXEEGZX1K7ZTK7XK7ZTK7XK7ZTK7XK7XK
+batches:
+  - id: 0
+    transactions:
+      - contract-publish:
+          contract-name: hello-world
+          expected-sender: ST6X0MXEEGZX1K7ZTK7XK7ZTK7XK7ZTK7XK7XK
+          cost: 5000
+          path: contracts/hello-world.clar
+          clarity-version: 2
